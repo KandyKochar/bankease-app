@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BankEase - Future of Digital Banking</title>
+    <link rel="stylesheet" href="bankease.css">
+    <!-- Add Font Awesome CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Add JavaScript file properly -->
+    <script src="bankease.js" defer></script>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <nav class="navbar">
+                <div class="logo">
+                    <img src="logo.png" alt="BankEase Logo" style="height:40px;" />
+                    <span>BankEase</span>
+                </div>
+                <div class="nav-links">
+                    <a href="#home">Home</a>
+                    <a href="#features">Features</a>
+                    <a href="#dashboard">Dashboard</a>
+                    
+                    <a href="#invest">Invest</a>
+                    <a href="#contact">Contact</a>
+                </div>
+                <div class="auth-buttons">
+                    <button class="btn btn-outline">Login</button>
+                    <button class="btn btn-primary">Register</button>
+                </div>
+                <div class="mobile-menu">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text animate">
+                    <h1>Banking Made Simple, Secure & Smart</h1>
+                    <p>Experience the future of digital banking with BankEase. Manage your finances effortlessly with our cutting-edge platform designed for your convenience.</p>
+                    <div class="cta-buttons">
+                        <button class="btn btn-primary">Open Account</button>
+                        <button class="btn btn-outline">Learn More</button>
+                    </div>
+                </div>
+                <div class="hero-image animate delay-1">
+                    <img src="bank.jpeg" alt="Digital Banking">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features" id="features">
+        <div class="container">
+            <div class="section-title animate">
+                <h2>Why Choose BankEase</h2>
+                <p>We provide innovative financial solutions to help you manage your money effectively and reach your financial goals.</p>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card animate delay-1">
+                    <div class="feature-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3>Advanced Security</h3>
+                    <p>Military-grade encryption and multi-factor authentication to keep your accounts and transactions secure.</p>
+                </div>
+                <div class="feature-card animate delay-2">
+                    <div class="feature-icon">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <h3>Mobile Banking</h3>
+                    <p>Full-featured mobile app to manage your accounts, pay bills, and transfer money on the go.</p>
+                </div>
+                <div class="feature-card animate delay-3">
+                    <div class="feature-icon">
+                        <i class="fas fa-percentage"></i>
+                    </div>
+                    <h3>Competitive Rates</h3>
+                    <p>Enjoy high-interest rates on savings accounts and low rates on loans and credit cards.</p>
+                </div>
+                <div class="feature-card animate delay-1">
+                    <div class="feature-icon">
+                        <i class="fas fa-piggy-bank"></i>
+                    </div>
+                    <h3>Smart Savings</h3>
+                    <p>Automated savings tools that help you save money effortlessly with round-ups and goals.</p>
+                </div>
+                <div class="feature-card animate delay-2">
+                    <div class="feature-icon">
+                        <i class="fas fa-credit-card"></i>
+                    </div>
+                    <h3>Virtual Cards</h3>
+                    <p>Generate disposable virtual cards for online shopping to prevent fraud and protect your main card.</p>
+                </div>
+                <div class="feature-card animate delay-3">
+                    <div class="feature-icon">
+                        <i class="fas fa-headset"></i>
+                    </div>
+                    <h3>24/7 Support</h3>
+                    <p>Our customer service team is available round the clock to assist you with any questions or issues.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Dashboard Section -->
+    <section class="dashboard" id="dashboard">
+        <div class="container">
+            <div class="section-title">
+                <h2>Your Financial Dashboard</h2>
+                <p>Get a complete overview of your finances in one place.</p>
+            </div>
+            <div class="dashboard-container">
+                <div class="sidebar">
+                    <ul class="sidebar-menu">
+                        <li><a href="#" class="active"><i class="fas fa-home"></i> Dashboard</a></li>
+                        <li><a href="#"><i class="fas fa-wallet"></i> Accounts</a></li>
+                        <li><a href="#"><i class="fas fa-exchange-alt"></i> Transactions</a></li>
+                        <li><a href="#"><i class="fas fa-money-bill-wave"></i> Payments</a></li>
+                        
+                        <li><a href="#"><i class="fas fa-chart-line"></i> Investments</a></li>
+                        <li><a href="#"><i class="fas fa-piggy-bank"></i> Savings</a></li>
+                        <li><a href="#"><i class="fas fa-cog"></i> Settings</a></li>
+                    </ul>
+                </div>
+                <div class="main-content">
+                    <div class="account-summary">
+                        <div class="summary-card">
+                            <h3>Total Balance</h3>
+                            <p class="balance">$24,589.42</p>
+                        </div>
+                        <div class="summary-card">
+                            <h3>Monthly Income</h3>
+                            <p>$5,200.00</p>
+                        </div>
+                        <div class="summary-card">
+                            <h3>Monthly Expenses</h3>
+                            <p>$3,745.28</p>
+                        </div>
+                        <div class="summary-card">
+                            <h3>Savings Goal</h3>
+                            <p>$15,000.00 / $20,000.00</p>
+                        </div>
+                    </div>
+                    <div class="transactions">
+                        <h3>Recent Transactions</h3>
+                        <table class="transaction-table">
+                            <thead>
+                                <tr>
+                                    <th>Description</th>
+                                    <th>Date</th>
+                                    <th>Amount</th>
+                                    <th>Status</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Salary Deposit</td>
+                                    <td>Jun 1, 2023</td>
+                                    <td class="transaction-amount credit">+$5,200.00</td>
+                                    <td><span class="status completed">Completed</span></td>
+                                </tr>
+                                <tr>
+                                    <td>Amazon Purchase</td>
+                                    <td>May 30, 2023</td>
+                                    <td class="transaction-amount debit">-$129.99</td>
+                                    <td><span class="status completed">Completed</span></td>
+                                </tr>
+                                <tr>
+                                    <td>Electric Bill</td>
+                                    <td>May 28, 2023</td>
+                                    <td class="transaction-amount debit">-$85.75</td>
+                                    <td><span class="status completed">Completed</span></td>
+                                </tr>
+                                <tr>
+                                    <td>Transfer to Savings</td>
+                                    <td>May 27, 2023</td>
+                                    <td class="transaction-amount debit">-$1,000.00</td>
+                                    <td><span class="status completed">Completed</span></td>
+                                </tr>
+                                <tr>
+                                    <td>Restaurant Payment</td>
+                                    <td>May 25, 2023</td>
+                                    <td class="transaction-amount debit">-$67.43</td>
+                                    <td><span class="status completed">Completed</span></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="transfer-money">
+                        <h3>Transfer Money</h3>
+                        <form class="transfer-form" id="transferForm">
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="fromAccount">From Account</label>
+                                    <select id="fromAccount" class="form-control" required>
+                                        <option value="">Select Account</option>
+                                        <option value="checking">Checking (•••3456)</option>
+                                        <option value="savings">Savings (•••7890)</option>
+                                    </select>
+                                </div>
+                                <div class="form-group">
+                                    <label for="toAccount">To Account</label>
+                                    <select id="toAccount" class="form-control" required>
+                                        <option value="">Select Account</option>
+                                        <option value="external">External Transfer</option>
+                                        <option value="checking">Checking (•••3456)</option>
+                                        <option value="savings">Savings (•••7890)</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="amount">Amount</label>
+                                <input type="number" id="amount" class="form-control" placeholder="0.00" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="description">Description</label>
+                                <input type="text" id="description" class="form-control" placeholder="Optional">
+                            </div>
+                            <button type="submit" class="btn btn-primary">Transfer Now</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Investment Section -->
+    <section class="investment-section" id="invest">
+        <div class="container">
+            <div class="section-title">
+                <h2>Investment Opportunities</h2>
+                <p>Grow your wealth with our carefully selected investment options.</p>
+            </div>
+            <div class="investment-cards">
+                <div class="investment-card">
+                    <div class="investment-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3>Stock Portfolio</h3>
+                    <p>Invest in a diversified portfolio of stocks from top companies worldwide.</p>
+                    <div class="roi">7-12% ROI</div>
+                    <button class="btn btn-outline">Invest Now</button>
+                </div>
+                <div class="investment-card">
+                    <div class="investment-icon">
+                        <i class="fas fa-building"></i>
+                    </div>
+                    <h3>Real Estate</h3>
+                    <p>Invest in commercial and residential properties with high rental yields.</p>
+                    <div class="roi">8-15% ROI</div>
+                    <button class="btn btn-outline">Invest Now</button>
+                </div>
+                <div class="investment-card">
+                    <div class="investment-icon">
+                        <i class="fas fa-coins"></i>
+                    </div>
+                    <h3>Crypto Funds</h3>
+                    <p>Diversified cryptocurrency investments managed by our expert traders.</p>
+                    <div class="roi">10-25% ROI</div>
+                    <button class="btn btn-outline">Invest Now</button>
+                </div>
+                <div class="investment-card">
+                    <div class="investment-icon">
+                        <i class="fas fa-globe"></i>
+                    </div>
+                    <h3>Global Bonds</h3>
+                    <p>Low-risk government and corporate bonds from stable economies.</p>
+                    <div class="roi">4-6% ROI</div>
+                    <button class="btn btn-outline">Invest Now</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact-section" id="contact">
+        <div class="container">
+            <div class="section-title">
+                <h2>Contact Us</h2>
+                <p>Have questions? Our team is here to help you with any inquiries.</p>
+            </div>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <h3>Get in Touch</h3>
+                    <p>We're here to answer any questions you may have about our services. Reach out to us and we'll respond as soon as possible.</p>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="contact-text">
+                                <h4>Address</h4>
+                                <p>123 Financial District, San Francisco, CA 94111</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-phone-alt"></i>
+                            </div>
+                            <div class="contact-text">
+                                <h4>Phone</h4>
+                                <p>+1 (800) 123-4567</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="contact-text">
+                                <h4>Email</h4>
+                                <p>support@nexusbank.com</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="name">Name</label>
+                                <input type="text" id="name" class="form-control" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email</label>
+                                <input type="email" id="email" class="form-control" required>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <input type="text" id="subject" class="form-control" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" class="form-control" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-container">
+                <div class="footer-col">
+                    <h4>BankEase</h4>
+                    <p>Revolutionizing digital banking with secure, innovative solutions for all your financial needs.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h4>Services</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">Personal Banking</a></li>
+                        <li><a href="#">Business Banking</a></li>
+                        <li><a href="#">Loans</a></li>
+                        <li><a href="#">Investments</a></li>
+                        <li><a href="#">Credit Cards</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Company</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Press</a></li>
+                        <li><a href="#">Partners</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Support</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">Help Center</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">Security</a></li>
+                        <li><a href="#">FAQs</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 BankEase. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    
+
+    <div class="notification" id="notification">
+        Transaction completed successfully!
+    </div>
+
+    <!-- Login Modal -->
+    <div class="modal" id="loginModal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <h3>Login to Your Account</h3>
+            <form id="loginForm">
+                <div class="form-group">
+                    <label for="loginEmail">Email</label>
+                    <input type="email" id="loginEmail" class="form-control" required>
+                </div>
+                <div class="form-group">
+                    <label for="loginPassword">Password</label>
+                    <input type="password" id="loginPassword" class="form-control" required>
+                </div>
+                <button type="submit" class="btn btn-primary">Login</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Register Modal -->
+    <div class="modal" id="registerModal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <h3>Create New Account</h3>
+            <form id="registerForm">
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="firstName">First Name</label>
+                        <input type="text" id="firstName" class="form-control" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="lastName">Last Name</label>
+                        <input type="text" id="lastName" class="form-control" required>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="registerEmail">Email</label>
+                    <input type="email" id="registerEmail" class="form-control" required>
+                </div>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="registerPassword">Password</label>
+                        <input type="password" id="registerPassword" class="form-control" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="confirmPassword">Confirm Password</label>
+                        <input type="password" id="confirmPassword" class="form-control" required>
+                    </div>
+                </div>
+                <button type="submit" class="btn btn-primary">Register</button>
+            </form>
+        </div>
+    </div>
+
+    
+                <button type="submit" class="btn btn-primary">Order Card</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="bankease.js"></script>
+</body>
+</html>
