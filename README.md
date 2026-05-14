@@ -39,17 +39,10 @@ bankease-app/
 
 ## Installation
 
-No build step required — this is a static single-page application.
-
 ```bash
 # Clone the repository
 git clone https://github.com/KandyKochar/bankease-app.git
-
-# Open in browser
-open bankease.html
 ```
-
-Or simply open `bankease.html` in any modern browser.
 
 ## Screenshots
 
